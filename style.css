@@ -1,0 +1,91 @@
+body{
+    display: grid;
+    justify-content: center;
+}
+.container{
+    width: 600px;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    
+    justify-content: center;
+}
+
+.div-head{
+    background-color: lightblue;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 7px 9px 20px black;
+    margin-bottom: 15px;
+    z-index: 100;
+
+}
+.use-img{
+    height: 50px;
+}
+.name-cv{
+    margin: 0;
+    margin-bottom: 4px;
+
+}
+.job-cv{
+    margin: 0;
+}
+.main{
+    display: grid;
+   
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid gray;
+}
+.pe1{
+    font-style: italic;
+    font-size: 13px;
+}
+h4{
+    border-bottom: 2px solid black;
+}
+
+.div-contact img{
+    height: 16px;
+}
+.div-contact li{
+    font-size: 12px;
+    margin-left: 0;
+    padding-bottom: 4px;
+    
+}
+.div-contact li:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.div-contact ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left:9px ;
+}
+.left-side{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 4px;
+    transition: 0.12s;
+
+}
+.left-side:hover{
+    box-shadow: 2px 2px 13px green;
+
+}
+.right-side{
+    background-color: rgb(255, 246, 246);
+    padding: 10px;
+    border-radius: 4px;
+}
+.right-side:hover{
+    box-shadow:2px 2px 13px green ;
+}
